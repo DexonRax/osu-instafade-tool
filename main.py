@@ -1,6 +1,9 @@
 from PIL import Image
+import os
 
-osu_path = "C:\\Users\\Dexon\\AppData\\Local\\osu!\\Skins\\"
+username = os.getlogin()
+
+osu_path = "C:\\Users\\"+username+"\\AppData\\Local\\osu!\\Skins\\"
 print("enter skin name")
 skin_name = input()#"GRM KW2"
 
